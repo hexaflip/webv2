@@ -6,7 +6,7 @@ import Swift from "./images/swift-logo.png"
 import Roblox from "./images/roblox-logo.png"
 
 import { motion } from "framer-motion";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 import { Button } from "@/components/ui/button"
 import { useToast } from "@/components/ui/use-toast"
 
@@ -40,12 +40,12 @@ export default function Home() {
               }
             },
           }}>
-            <h1 className="font-size" style={{ fontSize: '30px' }}>
+            <h1 className="font-size" style={{ fontSize: "30px" }}>
               Hey! I'm Thomas.
             </h1>
           </motion.div>
         </div>
-        <div className="flex justify-center w-full" style={{ marginTop: '35px' }}>
+        <div className="flex justify-center w-full" style={{ marginTop: "35px" }}>
           <motion.div initial="hidden" animate="visible" variants={{
             hidden: {
               scale: 0.8,
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="flex">
               <Typewriter
                 options={{
-                  strings: ['This is my portfolio', ' These are my contributions', 'These are some of my favorite projects'],
+                  strings: ["This is my portfolio", " These are my contributions", "These are some of my favorite projects"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -84,7 +84,7 @@ export default function Home() {
               }
             },
           }}>
-                      <h1 className="font-size" style={{ fontSize: '10px' }}>
+                      <h1 className="font-size" style={{ fontSize: "10px" }}>
               hint: scroll down
             </h1>
             </motion.div>
