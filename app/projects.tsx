@@ -13,16 +13,16 @@ export default function Projects(){
         <div className="flex flex-col w-full gap-4 pt-12 justify-left">
             <div className="Youlearn-Classmate">
                 <div className="flex flex-col pb-4">
-                    <h1 style={{fontSize: "20px"}}>
+                    <h1 style={{fontSize: "20px", textAlign: 'left'}}>
                         <b> Youlearn-Classmate</b>
                     </h1>
                 </div>
-            <p style={{color: '#9cb5ba'}}>
+            <p style={{color: '#9cb5ba', textAlign: 'left'}}>
             This was a team project that was given to us by one of our professors at MSU. 
             I designed and built a working frontend that allowed users to prompt a trained chatgpt model for the CSE 320 course. 
             The chatbot came with a working Table that displayed chat messages for the professor that I designed and connected to the API. 
             </p>
-            <p className="pt-4 pb-4" style={{fontSize: "12px"}}>
+            <p className="pt-4 pb-4" style={{fontSize: "12px", textAlign: 'left'}}>
                 React &#160;&nbsp;Next.JS&#160;&nbsp; Node&#160;&nbsp; Open API
             </p>
             </div>
@@ -41,13 +41,13 @@ export default function Projects(){
                     </Link>
                     
                 </div>
-            <p style={{color: '#9cb5ba'}}>
+            <p style={{color: '#9cb5ba', textAlign: 'left'}}>
             This is a program that I am building to focus on object orientated programming. 
             I wanted to use good techniques to further my knowledge of Python. 
             I am making this to help anyone to become better at mental math. 
             Includes leveling system for anyone wanting to improve.
             </p>
-            <p className="pt-4 pb-4" style={{fontSize: "12px"}}>
+            <p className="pt-4 pb-4" style={{fontSize: "12px", textAlign: 'left'}}>
                 Python
             </p>
             </div>
@@ -66,13 +66,13 @@ export default function Projects(){
                     </Link>
                     
                 </div>
-            <p style={{color: '#9cb5ba'}}>
+            <p style={{color: '#9cb5ba', textAlign: 'left'}}>
             This is where I started programming.
              My first ever project that I started when I was 12.
               This was a tycoon game where you build your base to make money and then use the money to fight against others.
                I managed to get 1000+ visits and it made me fall in love with programming.
             </p>
-            <p className="pt-4 pb-4" style={{fontSize: "12px"}}>
+            <p className="pt-4 pb-4" style={{fontSize: "12px", textAlign: 'left'}}>
                 Roblox Studio &#160;&nbsp; Lua
             </p>
             </div>

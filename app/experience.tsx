@@ -11,13 +11,13 @@ export default function Experience(){
         </div>
         <div className="relative flex flex-col w-full gap-4 pt-12 justify-left">
             <h1 style={{fontSize: "20px"}}>
-                <b>Web Developer @ <span style={{ color: '#4287f5' }}> <Link href={"https://stacsv.org/"}>Science and Technology Advisory Council Silicon Valley (STAC SV)</Link></span></b>
+                <b>Web Developer @ <span style={{ color: '#4287f5' }}> <Link href={"https://stacsv.org/"}>Science and Technology Advisory Council Silicon Valley (STAC SV) &#160;</Link></span></b>
             </h1>
-            <h1 style={{fontSize: "14px", color: '#9cb5ba'}}>
+            <h1 style={{fontSize: "14px", color: '#9cb5ba', textAlign: 'left'}}>
                 <b>May - August 2024</b>
             </h1>
-            <p style={{color: '#9cb5ba'}}>
-            ○ Designed and implemented efficient routing architecture for optimal website navigation and performance. <br/>
+            <p style={{color: '#9cb5ba', textAlign: 'left'}}>
+            ○ Designed and implemented routing architecture for optimal website navigation and performance. <br/>
             ○ Used Next.js, CSS, and Typescript to make web pages that allowed for a satisfying user experience. <br/>
             ○ Built and designed backend for realtime additions to their catalog using APIs with authentication. <br/>
             ○ Designed and implemented efficient routing architecture for optimal website navigation and performance. <br/>
