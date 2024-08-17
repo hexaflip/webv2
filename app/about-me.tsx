@@ -3,7 +3,7 @@ import musicNote from "./images/musical-note.png"
 import folder from "./images/folder.png"
 import tree from "./images/tree.png"
 import bookIco from "./images/icons8-book-64.png"
-import githubWhite from "./images/github-logo-white.png";
+import me from "./images/me-fr.png"
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link"
@@ -16,9 +16,18 @@ export default function AboutMe(){
 
           {/* Who you are */}
 
-          <h1 style={{fontSize: '28px'}}> <b> Hello!</b> </h1>
+          <h1 style={{fontSize: '28px', textAlign: 'left'}}> <b> Hello!</b> </h1>
           <div className="border border-white">
           </div>
+          <div className="flex items-center gap-3">
+          <h1  style={{fontSize: '20px', textAlign: 'left'}}> <b> Me</b> </h1>
+            <Image
+              src={me}
+              alt="musical note image"
+              style={{ width: '1.75em', height: '1.75em', verticalAlign: 'middle' }}
+            />
+          </div>
+          
           <p style={{color: '#9cb5ba', textAlign: 'left'}}>
             My name is Thomas Laskowski. 
             I am a programmer who likes to build projects and solve challenging problems.

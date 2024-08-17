@@ -7,7 +7,7 @@ import Image from "next/image"
 export default function Projects(){
     return(
         <div className="flex flex-col p-4 gap-2 w-full justify-between pt-10">
-            <h1 style={{fontSize: '28px'}}> <b>Projects</b> </h1>
+            <h1 style={{fontSize: '28px' , textAlign: 'left'}}> <b>Projects</b> </h1>
             <div className="border border-white">
             </div>
         <div className="flex flex-col w-full gap-4 pt-12 justify-left">

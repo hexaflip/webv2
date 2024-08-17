@@ -6,7 +6,7 @@ import StacSV from "./images/Screenshot 2024-08-17 at 12.50.51 PM.png"
 export default function Experience(){
     return(
         <div className="flex flex-col p-4 gap-2 w-full justify-between pt-10">
-            <h1 style={{fontSize: '28px'}}> <b>Experience</b> </h1>
+            <h1 style={{fontSize: '28px', textAlign: 'left'}}> <b>Experience</b> </h1>
             <div className="border border-white">
         </div>
         <div className="relative flex flex-col w-full gap-4 pt-12 justify-left">

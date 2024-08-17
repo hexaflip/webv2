@@ -15,11 +15,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24">
       <div className="z-10 w-full max-w-5xl flex flex-col items-center text-center font-mono text-sm lg:text-base">
         <div className="mt-12 lg:mt-56">
-          <h1 className="text-3xl lg:text-5xl font-bold text-white" style={{ textShadow: "1px 1px 10px white" }}>
+          <h1 className="text-3xl lg:text-5xl text-white" style={{ textShadow: "1px 1px 10px white" }}>
             Thomas Laskowski
           </h1>
         </div>
-        <nav className="mt-8 lg:mt-12 flex flex-col lg:flex-row gap-4 lg:gap-8">
+        <nav className="mt-8 lg:mt-12 flex flex-col lg:flex-row gap-4 lg:gap-0">
           <Link href="#about-me"><Button variant="secondary">About</Button></Link>
           <Link href="#experience"><Button variant="secondary">Experience</Button></Link>
           <Link href="#projects"><Button variant="secondary">Projects</Button></Link>
