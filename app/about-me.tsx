@@ -117,7 +117,7 @@ export default function AboutMe(){
           ○ Dungeon Born ✔ <br/>
           ○ Dungeon Madness ✔ <br/>
           ○ Dungeon Calamity ✔ <br/>
-          ○ Dungeon Desolation  (Chapter 12/60) <br/>
+          ○ Dungeon Desolation  (Chapter 46/60) <br/>
           ○ Dungeon Eternium
           </p>
         </div>
