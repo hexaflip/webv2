@@ -95,31 +95,15 @@ export default function AboutMe(){
 
           {/* Books */}
 
-
-          <div className="flex items-center gap-3">
-            <h1 style= {{fontSize: '20px'}}className="font-bold">
-              Summer Reading
+        <div className="flex flex-col items-start">
+          <h1 style= {{fontSize: '20px'}}className="font-bold pb-4">
+              Reading List
             </h1>
-            <Image
-              src={bookIco}
-              alt="musical note image"
-              style={{ width: '2em', height: '2em', verticalAlign: 'middle' }}
-            />
-          </div>
-          
-          <p style={{color: '#9cb5ba', textAlign: 'left'}}>
-          I was recommended to read the Divine Dungeon Series over the Summer and am currently on the fourth book. 
-          The series is about a man who is reborn into a dungeon and finds new ways to grow and develop and become knowledgable.
-          This book helped me remember how much fun it is to learn. While it can be childish, it is a fun read. <br/> <br/>
-          The following are the books in the series:
+          <p className = "pb-4"style={{color: '#9cb5ba', textAlign: 'left'}}>
+            These are books that I have read and my thoughts on them.
           </p>
-          <p style={{color: '#9cb5ba', marginLeft: '25px', textAlign: 'left'}}>
-          ○ Dungeon Born ✔ <br/>
-          ○ Dungeon Madness ✔ <br/>
-          ○ Dungeon Calamity ✔ <br/>
-          ○ Dungeon Desolation  (Chapter 46/60) <br/>
-          ○ Dungeon Eternium
-          </p>
+        <Link href="/books"><Button variant="secondary">Books</Button></Link>
+        </div>
         </div>
       </div>
     );
